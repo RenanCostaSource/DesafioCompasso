@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useAlert } from 'react-alert'
 import { cleanError, searchUser } from '../store/fetchActions/index';
 import Result from '../components/Result'
+import gitlogo from '../assets/img/github_icon.png'
 import '../assets/css/global.css';
 import '../assets/css/root.css';
 
@@ -15,6 +16,8 @@ export default function GeneratorHome() {
     const [query, setQuery] = useState("");
     const user = useSelector(state => state.user);
     const fetcherror = useSelector(state => state.fetcherror);
+
+    //caso haja algum erro reportado no state cria um alerta e remove o erro do state para evitar múltiplos avisos
     useEffect(() => {     
         if(fetcherror)
         {
@@ -24,6 +27,7 @@ export default function GeneratorHome() {
         }
        }, [fetcherror]);
 
+       //caso houver um parametro no url e não ter nenhum dado de usuário no state realiza a pesquisa
        useEffect(() => {   
            var urlparam=  window.location.pathname.substring(1);
            
@@ -48,7 +52,7 @@ export default function GeneratorHome() {
     return (
         <div>
             <nav className="navbar">
-
+                <a href="https://github.com/"><img src={gitlogo} alt="Ícone do GitHub"/></a>
                 <input onChange={changeQuery} onKeyDown={_handleKeyDown} placeholder="Pesquisar usuário GitHub"></input>
                 <button onClick={queryClick}>
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search searchicon" fill="lightgray" xmlns="http://www.w3.org/2000/svg">

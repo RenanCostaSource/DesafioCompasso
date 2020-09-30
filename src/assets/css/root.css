@@ -13,10 +13,11 @@
     justify-content: flex-start;
     flex-flow: row nowrap;
 }
-@keyframes inputfocado {
-    from {width: 15%;}
-    to {width: 20%;}
-  }
+.navbar a img{
+    height:35px ;
+    margin-right: 10px;
+    margin-left: 15px;
+}
 .navbar input{
     padding-right: 15px;
     padding-left: 15px;
