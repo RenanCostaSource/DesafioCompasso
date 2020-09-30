@@ -1,0 +1,62 @@
+.grayhead{
+    background-color:#f9fafb!important;
+    min-height: 100px;
+    border-bottom: 10px #000000;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.namecontainer{
+    color:#0366D6;
+    font-size: 25px;
+    margin-top: auto;
+    width: fit-content;
+    cursor: pointer;
+}
+.namecontainer img{
+    vertical-align:middle;
+    margin-right: 5px;
+    border-radius: 50%;
+    height:  30px;
+    width: 30px;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes button{
+    display: flex;
+    margin:10px;
+    padding-right: 6px;
+    padding-left: 6px;
+    font-size: 15px;
+
+    border: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.botoes button img{
+    height: 20px;
+    margin-right:5px ;
+    margin-top:2px ;
+}
+.botoes button p{
+    
+    margin-top:3px ;
+}
+.botoes button div{
+    margin-left: 5px;
+    margin-top: 2px;
+    padding: 2px;
+    font-size: 13px;
+    border-radius: 50%;
+    background-color:#bdbdbd ;
+}
+.botoes button:hover{
+    background-color:#bdbdbd ;
+}
+.whitebody{
+    border-top: solid 1px #E8EAED;
+    height: 100vh;
+    background-color: #ffffff!important;
+}
