@@ -1,0 +1,9 @@
+.repo_list {
+    position: relative;
+    height: 80vh;
+    overflow-y: scroll;
+    width: 60%;
+    min-width: 600px;
+    border-left: solid 5px;
+    border-color: #f1f1f1;
+}

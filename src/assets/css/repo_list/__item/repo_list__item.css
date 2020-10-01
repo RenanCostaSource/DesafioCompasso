@@ -1,0 +1,12 @@
+.repo_list__item{
+    padding: 20px;
+    border-bottom: solid 1px;
+    border-color: rgb(190, 190, 190);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.repo_list__item:hover{
+    background-color: #bdbdbd;
+}

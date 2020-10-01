@@ -1,0 +1,4 @@
+.result_header__button_container{
+    display: flex;
+    justify-content: space-between;
+}

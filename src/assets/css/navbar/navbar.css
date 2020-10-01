@@ -1,0 +1,15 @@
+.navbar{
+    background: #24292e;
+    overflow: hidden;
+
+    padding: 16px;
+    
+    
+    width: 100%;  
+    border: 0;
+    z-index: 9;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+}

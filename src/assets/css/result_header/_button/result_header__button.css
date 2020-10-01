@@ -1,0 +1,14 @@
+.result_header__button{
+    display: flex;
+    margin:10px;
+    padding-right: 6px;
+    padding-left: 6px;
+    font-size: 15px;
+    height:23px ;
+    border: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.result_header__button:hover{
+background-color:#bdbdbd ;
+}

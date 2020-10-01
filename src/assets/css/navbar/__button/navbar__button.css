@@ -1,0 +1,10 @@
+.navbar__button{
+    margin: auto 0;
+    margin-left: 5px;
+    height: 25px;
+    background-color:#24292e;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: #fff;
+    width: 25px;
+}

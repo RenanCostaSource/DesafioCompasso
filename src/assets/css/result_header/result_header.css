@@ -1,0 +1,8 @@
+.result_header{
+    background-color:#f9fafb!important;
+    min-height: 100px;
+    border-bottom: 10px #000000;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-around;
+}

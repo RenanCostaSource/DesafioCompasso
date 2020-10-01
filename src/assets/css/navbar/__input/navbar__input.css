@@ -1,0 +1,19 @@
+.navbar__input{
+    padding-right: 15px;
+    padding-left: 15px;
+    min-width: 160px;
+    margin: auto 10px;
+    background-color: #3F4448;
+    color: hsla(0,0%,100%,.7);
+    width: 15%;
+    height: 70%;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: ease-in-out, width .35s ease-in-out;
+}
+.navbar__input:focus{
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.7);
+    width: 20%;
+   
+}
