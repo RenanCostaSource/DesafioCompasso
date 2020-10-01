@@ -43,18 +43,18 @@ Outras decisões de projeto:
 1.3 Sem fornecer usuário
 
 2. Campo de Busca
-2.1 Usando um usuário existente
-2.2 Usando um usuário inexistente
-2.3 Sem fornecer usuário
+2. 1 Usando um usuário existente
+2. 2 Usando um usuário inexistente
+2. 3 Sem fornecer usuário
 
 3. Botão Repos 
 
 4. Botão Starred
 
 5. Links Nome Usuário
-5.1 Links Nome Usuário
-5.2 Link Repositório da Lista Repositório
-5.3 Link Repositório da Lista Starred
+5. 1 Links Nome Usuário
+5. 2 Link Repositório da Lista Repositório
+5. 3 Link Repositório da Lista Starred
 
 ## Execução dos testes no Cypress
 
