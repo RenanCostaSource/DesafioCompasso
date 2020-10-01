@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+TESTE FRONTEND COMPASSO  
+---------------------------------------------  
+**Candidato:** Renan Costa  
+**Contato:** renan.paiva@lavid.ufpb.br - (83) 99133-6770  
+**Data:** 30/09/2020  
+  
+Este projeto foi desenvolvido como teste prático para candidatura ao  
+cargo de frontend na COMPASSO.  
+  
+### Objetivo:  
+Implementação de uma aplicação utilizando a api do GITHUB  ([https://developer.github.com/v3/](https://developer.github.com/v3/)) para consumo dos seguintes  endpoints:  
+- Endpoint user: [https://api.github.com/users/USER_GITHUB](https://api.github.com/users/USER_GITHUB)  
+- Endpoint repos: [https://api.github.com/users/USER_GITHUB/repos](https://api.github.com/users/USER_GITHUB/repos)  
+- Endpoint starred:  [https://api.github.com/users/USER_GITHUB/starred{/owner}{/repo}](https://api.github.com/users/USER_GITHUB/starred%7B/owner%7D%7B/repo%7D)  
+  
+A aplicação contém três componentes principais:  
+- campo de busca;  
+- área de visualização de resultados;  
+- dois botões para detalhar um determinado resultado: repos e starred.  
+  
+E oferece as seguintes funcionalidades:  
+- Pesquisar por usuário;  
+- Listar os repositórios do usuário pesquisado;  
+- Listar os repositórios mais visitados pelo usuário pesquisado.  
+  
+Stack Utilizada:  
+- HTML 5 ;  
+- JAVASCRIPT (REACTJS + REDUX);  
+- CSS 3 (BEM CSS).  
+  
+Outras decisões de projeto:  
+- Implementação do testes com a ferramenta CYPRESS (https://www.cypress.io/);  
+- Aplicação Metodologia BEM CSS (Referência utilizada: https://en.bem.info/);  
+- Aplicação de boas práticas JAVASCRIPT/REACTJS (Referência utilizada: site Z);  
+- Aplicação de boas práticas HTML 5 (Referência utilizada: themelocation.com/best-html5-practices/).
+## Plano de Testes
+1. Ativação Direto pela URL:
+1.1 Usando um usuário existente
+1.2 Usando um usuário inexistente
+1.3 Sem fornecer usuário
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Campo de Busca
+2.1 Usando um usuário existente
+2.2 Usando um usuário inexistente
+2.3 Sem fornecer usuário
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+3. Botão Repos 
 
-### `yarn test`
+4. Botão Starred
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Links Nome Usuário
+5.1 Links Nome Usuário
+5.2 Link Repositório da Lista Repositório
+5.3 Link Repositório da Lista Starred
 
-### `yarn build`
+## Execução dos testes no Cypress
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![alt text](https://github.com/RenanCostaSource/DesafioCompasso/blob/master/cypress.gif?raw=true)
