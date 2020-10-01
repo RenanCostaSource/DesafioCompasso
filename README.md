@@ -37,24 +37,24 @@ Outras decisões de projeto:
 - Aplicação de boas práticas JAVASCRIPT/REACTJS (Referência utilizada: https://www.smashingmagazine.com/2020/04/react-hooks-best-practices/);  
 - Aplicação de boas práticas HTML 5 (Referência utilizada: themelocation.com/best-html5-practices/).
 ## Plano de Testes
-1. Ativação Direto pela URL:
-1.1 Usando um usuário existente
-1.2 Usando um usuário inexistente
-1.3 Sem fornecer usuário
+### 1 Ativação Direto pela URL:
+1. Usando um usuário existente
+2. Usando um usuário inexistente
+3. Sem fornecer usuário
 
-2. Campo de Busca
-2. 1 Usando um usuário existente
-2. 2 Usando um usuário inexistente
-2. 3 Sem fornecer usuário
+### 2 Campo de Busca
+1. Usando um usuário existente
+2. Usando um usuário inexistente
+3. Sem fornecer usuário
 
-3. Botão Repos 
+### 3 Botão Repos 
 
-4. Botão Starred
+### 4. Botão Starred
 
-5. Links Nome Usuário
-5. 1 Links Nome Usuário
-5. 2 Link Repositório da Lista Repositório
-5. 3 Link Repositório da Lista Starred
+### 5 Links Nome Usuário
+1. Links Nome Usuário
+2. Link Repositório da Lista Repositório
+3. Link Repositório da Lista Starred
 
 ## Execução dos testes no Cypress
 
