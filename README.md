@@ -34,7 +34,7 @@ Stack Utilizada:
 Outras decisões de projeto:  
 - Implementação do testes com a ferramenta CYPRESS (https://www.cypress.io/);  
 - Aplicação Metodologia BEM CSS (Referência utilizada: https://en.bem.info/);  
-- Aplicação de boas práticas JAVASCRIPT/REACTJS (Referência utilizada: site Z);  
+- Aplicação de boas práticas JAVASCRIPT/REACTJS (Referência utilizada: https://www.smashingmagazine.com/2020/04/react-hooks-best-practices/);  
 - Aplicação de boas práticas HTML 5 (Referência utilizada: themelocation.com/best-html5-practices/).
 ## Plano de Testes
 1. Ativação Direto pela URL:
